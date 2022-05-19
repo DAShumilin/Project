@@ -7,7 +7,7 @@
 #include "Filter.h"
 
 FILE* pFile = fopen("Foto.bmp", "rb");
-FILE* oFile = fopen("output.bmp", "wb");
+FILE* oFile = fopen("OutFoto.bmp", "wb");
 
 void Filter::BITMAPFILEHEADER::RHeaderFoto(){
 
