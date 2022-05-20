@@ -48,7 +48,6 @@ public:
         int rgbBlue;
         int rgbGreen;
         int rgbRed;
-        int rgbReserved;
 
         RGBQUAD* ReadByteColor(BITMAPINFOHEADER& BmiHeader);
         void Inversion(BITMAPINFOHEADER& BmiHeader, RGBQUAD*& pixels);
