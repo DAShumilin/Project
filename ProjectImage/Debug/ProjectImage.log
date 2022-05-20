@@ -1,2 +1,96 @@
 ﻿  Filter.cpp
-  ProjectImage.vcxproj -> C:\Users\User\source\repos\ProjectImage\Debug\ProjectImage.exe
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.h(58,35): error C2061: синтаксическая ошибка: идентификатор "FILE"
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.h(59,33): error C2061: синтаксическая ошибка: идентификатор "FILE"
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.h(61,48): error C2061: синтаксическая ошибка: идентификатор "FILE"
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.h(62,46): error C2061: синтаксическая ошибка: идентификатор "FILE"
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(9,5): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(9,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(9,15): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(9,15): error C3861: fopen: идентификатор не найден
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(10,5): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(10,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(10,1): error C2086: int FILE: переопределение
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(9): message : см. объявление "FILE"
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(10,15): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(10,15): error C3861: fopen: идентификатор не найден
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(14,30): error C2660: Filter::read_16: функция не принимает 1 аргументов
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.h(58,27): message : см. объявление "Filter::read_16"
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(15,33): error C2660: Filter::read_32: функция не принимает 1 аргументов
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.h(59,25): message : см. объявление "Filter::read_32"
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(16,38): error C2660: Filter::read_16: функция не принимает 1 аргументов
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.h(58,27): message : см. объявление "Filter::read_16"
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(17,38): error C2660: Filter::read_16: функция не принимает 1 аргументов
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.h(58,27): message : см. объявление "Filter::read_16"
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(18,36): error C2660: Filter::read_32: функция не принимает 1 аргументов
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.h(59,25): message : см. объявление "Filter::read_32"
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(23,34): error C2660: Filter::write_16: функция не принимает 2 аргументов
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.h(61,17): message : см. объявление "Filter::write_16"
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(24,34): error C2660: Filter::write_32: функция не принимает 2 аргументов
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.h(62,17): message : см. объявление "Filter::write_32"
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(25,39): error C2660: Filter::write_16: функция не принимает 2 аргументов
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.h(61,17): message : см. объявление "Filter::write_16"
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(26,39): error C2660: Filter::write_16: функция не принимает 2 аргументов
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.h(61,17): message : см. объявление "Filter::write_16"
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(27,37): error C2660: Filter::write_32: функция не принимает 2 аргументов
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.h(62,17): message : см. объявление "Filter::write_32"
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(32,33): error C2660: Filter::read_32: функция не принимает 1 аргументов
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.h(59,25): message : см. объявление "Filter::read_32"
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(33,34): error C2660: Filter::read_32: функция не принимает 1 аргументов
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.h(59,25): message : см. объявление "Filter::read_32"
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(34,35): error C2660: Filter::read_32: функция не принимает 1 аргументов
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.h(59,25): message : см. объявление "Filter::read_32"
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(35,35): error C2660: Filter::read_16: функция не принимает 1 аргументов
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.h(58,27): message : см. объявление "Filter::read_16"
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(36,37): error C2660: Filter::read_16: функция не принимает 1 аргументов
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.h(58,27): message : см. объявление "Filter::read_16"
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(37,40): error C2660: Filter::read_32: функция не принимает 1 аргументов
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.h(59,25): message : см. объявление "Filter::read_32"
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(38,38): error C2660: Filter::read_32: функция не принимает 1 аргументов
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.h(59,25): message : см. объявление "Filter::read_32"
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(43,37): error C2660: Filter::write_32: функция не принимает 2 аргументов
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.h(62,17): message : см. объявление "Filter::write_32"
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(44,38): error C2660: Filter::write_32: функция не принимает 2 аргументов
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.h(62,17): message : см. объявление "Filter::write_32"
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(45,39): error C2660: Filter::write_32: функция не принимает 2 аргументов
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.h(62,17): message : см. объявление "Filter::write_32"
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(46,39): error C2660: Filter::write_16: функция не принимает 2 аргументов
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.h(61,17): message : см. объявление "Filter::write_16"
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(47,41): error C2660: Filter::write_16: функция не принимает 2 аргументов
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.h(61,17): message : см. объявление "Filter::write_16"
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(48,44): error C2660: Filter::write_32: функция не принимает 2 аргументов
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.h(62,17): message : см. объявление "Filter::write_32"
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(49,42): error C2660: Filter::write_32: функция не принимает 2 аргументов
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.h(62,17): message : см. объявление "Filter::write_32"
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(57,29): error C3861: getc: идентификатор не найден
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(58,30): error C3861: getc: идентификатор не найден
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(59,28): error C3861: getc: идентификатор не найден
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(68,9): error C3861: putc: идентификатор не найден
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(69,9): error C3861: putc: идентификатор не найден
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(70,9): error C3861: putc: идентификатор не найден
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(78,9): error C3861: putc: идентификатор не найден
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(79,9): error C3861: putc: идентификатор не найден
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(80,9): error C3861: putc: идентификатор не найден
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(84,36): error C2761: "unsigned short Filter::read_16(void)": повторное объявление члена запрещено.
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(84,38): error C2065: fp: необъявленный идентификатор
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(84,41): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(84,41): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(94,34): error C2761: "unsigned int Filter::read_32(void)": повторное объявление члена запрещено.
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(94,36): error C2065: fp: необъявленный идентификатор
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(94,39): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(94,39): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(106,45): error C2061: синтаксическая ошибка: идентификатор "FILE"
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(108,17): error C2065: fp: необъявленный идентификатор
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(108,5): error C3861: putc: идентификатор не найден
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(109,22): error C2065: fp: необъявленный идентификатор
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(109,5): error C3861: putc: идентификатор не найден
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(112,43): error C2061: синтаксическая ошибка: идентификатор "FILE"
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(114,17): error C2065: fp: необъявленный идентификатор
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(114,5): error C3861: putc: идентификатор не найден
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(115,22): error C2065: fp: необъявленный идентификатор
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(115,5): error C3861: putc: идентификатор не найден
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(116,23): error C2065: fp: необъявленный идентификатор
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(116,5): error C3861: putc: идентификатор не найден
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(117,23): error C2065: fp: необъявленный идентификатор
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(117,5): error C3861: putc: идентификатор не найден
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(134,5): error C3861: fclose: идентификатор не найден
+C:\Users\User\source\repos\ProjectImage\ProjectImage\Filter.cpp(135,5): error C3861: fclose: идентификатор не найден
